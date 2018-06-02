@@ -21,7 +21,7 @@ function setup() {
 
   if (!!hash) {
     let processing = document.createElement('script');
-        processing.src = './p5.min.js';
+        processing.src = './node_modules/p5/lib/p5.min.js';
 
     document.body.appendChild(processing);
 
