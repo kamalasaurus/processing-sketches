@@ -1,8 +1,8 @@
 {
-  "name": "ProcessingSketches",
+  "name": "processing-sketches",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "controller.js",
   "scripts": {
     "start": "live-server"
   },
