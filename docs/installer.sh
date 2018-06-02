@@ -16,6 +16,9 @@ require_cmd() {
     git)
       echo "$(brew install git)"
       ;;
+    live-server)
+      echo "$(npm install -g live-server)"
+      ;;
     *)
       break
       ;;
@@ -29,6 +32,7 @@ main() {
   require_cmd brew
   require_cmd git
   require_cmd node
+  require_cmd live-server
 
   echo "$(git clone git@github.com:kamalasaurus/processing-sketches.git)"
   echo "$(cd ./processing-sketches && npm install)"
