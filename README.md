@@ -4,15 +4,13 @@ Developed at ITP Summer Camp 2018
 
 ## Requirements
 
-Run this in you command line
-
-1. `brew install git`
-2. `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
-3. `nvm install node`
+The installer script will auto-install brew, nvm, and node if you don't
+have them yet since they're necessary to get your portfolio running.
 
 ## Usage
 
-1. `git clone `
-2. `npm install`
-3. `npm start`
+1. open a new terminal window, move to a directory you want this stuff
+   to exist in, then copy/paste `curl https://kamalasaurus.github.io/processing-sketches/installer.sh | sh`
+2. `cd processing-sketches`
+2. `npm start`
 
