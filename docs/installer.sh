@@ -1,5 +1,3 @@
-#!/bin/sh
-
 require_cmd() {
   if ! command -v "$1" > /dev/null 2>&1
   then
@@ -31,6 +29,9 @@ main() {
   require_cmd brew
   require_cmd git
   require_cmd node
+
+  echo "$(git clone git@github.com:kamalasaurus/processing-sketches.git)"
+  echo "$(cd ./processing-sketches && npm install)"
 
   exit 0;
 }

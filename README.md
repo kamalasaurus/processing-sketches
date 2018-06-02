@@ -34,7 +34,7 @@ have them yet since they're necessary to get your portfolio running.
 ## Usage
 
 1. open a new terminal window, move to a directory you want this stuff
-   to exist in, then copy/paste `curl https://kamalasaurus.github.io/processing-sketches/installer.sh | sh`
+   to exist in, then copy/paste `curl https://kamalasaurus.github.io/processing-sketches/installer.sh -sSf | sh`
 2. `cd processing-sketches`
 3. `npm start`
 
